@@ -1,0 +1,27 @@
+Variáveis de Ambiente
+
+Vários programas precisam de informações sobre o usuário e preferencias.Para evitar que você tenha que digitar a todo momento,o shell cria um ambiente operacional composto de inúmeras variáveis.
+
+Há dois tipos de variáveis
+	- Variáveis de ambiente globais
+	- Variáveis de shell (locais)
+VARIÁVEIS GLOBAIS
+	- PATH - Lista de diretórios de programas executáveis
+	- USERNAME - Nome do usuário logado
+	- TERM - Tipo de terminal ou janela de terminal em uso
+	- HOME - Diretório home do usuário atual
+	- UID - UID do usuário atual
+	- RANDOM - Gera um número aleatório
+	- LANG - Idioma,especificado como locale
+
+Os comandos "env" e "printenv" mostram as variáveis de ambiente no terminal.
+
+Para criar uma variável global,crie uma local e depois exporte-a com o comando EXPORT.
+
+VARIÁVEIS LOCAIS
+
+São específicas para o shell atual e usadas apenas ali na sessão de shell atual.
+
+O comando "export nomevariável" pode ser usado para disponibilizar a variável usada de forma global
+O comando "unset nomevariável" remove a variável do ambiente tanto localmente quanto globalmente.
+

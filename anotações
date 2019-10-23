@@ -1,0 +1,13 @@
+Conceitos
+	O shell é um programa de usuário,que oferece interface personalizável para seu sistema.
+	- Interface de texto interativa para o sistema operacional - "intérprete de comandos"
+	- Ambiente de execução de outros programas,consistindo em um número de variáveis de ambiente.
+	- Oferecem linguagens de programação;programas completos podem ser escritos nas linguagens dos shells.
+	- São personalizáveis ajustando no ambiente operacional.
+	- Executados para uso interativos pelos usuários e para uso não-interativo pelo sistema.
+	- Usam vários arquivos de config para seus ambientes.
+	- Podem executar outros shells.
+Tipos de Shell 
+	- sh , bash, ksh, zsh, csh, tcsh
+
+EXISTEM MUITAS DIFERENÇAS ENTRE UM SHELL E OUTRO PARA DENTRO DA COMMAND LINE
